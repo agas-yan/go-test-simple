@@ -2,6 +2,22 @@
 
 ## How to run this project
 
+Normal Test
+
+`go test`
+
+Verbose:
+
+`go test -v`
+
+With Cover
+
+`go test -cover`
+
+``` sh
+go test -coverprofile=coverage.out
+go tool cover -html=coverage.out
+```
 
 * * *
 
